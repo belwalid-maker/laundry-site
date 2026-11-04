@@ -568,8 +568,39 @@ function setCurrentYear() {
   });
 }
 
+function setupAnalyticsTracking() {
+  document.addEventListener("click", (event) => {
+    const target = event.target;
+    if (!(target instanceof Element)) return;
+
+    const link = target.closest("a");
+    if (!link) return;
+
+    const href = (link.getAttribute("href") || "").trim();
+    let eventName = "";
+
+    if (href.toLowerCase().startsWith("tel:")) {
+      eventName = "click_phone";
+    } else if (
+      link.hasAttribute("data-whatsapp") ||
+      /wa\.me|whatsapp\.com/i.test(href)
+    ) {
+      eventName = "click_whatsapp";
+    } else if (
+      /google\.[a-z.]+\/maps|maps\.google\.|maps\.app\.goo\.gl/i.test(href)
+    ) {
+      eventName = "click_directions";
+    }
+
+    if (eventName && typeof window.gtag === "function") {
+      window.gtag("event", eventName);
+    }
+  });
+}
+
 setupLanguageSwitch();
 setupMobileNavigation();
 setupStickyHeader();
 setCurrentYear();
+setupAnalyticsTracking();
 applyLanguage(currentLanguage, { persist: false });
