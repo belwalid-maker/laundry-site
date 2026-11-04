@@ -9,9 +9,9 @@
 
 const siteConfig = {
   phoneNumber: "212522983778", // digits only, including country code
-  whatsappNumber: "212601779851", // separate WhatsApp number
+  whatsappNumber: "212649320942", // separate WhatsApp number
   displayPhone: "05 22 98 37 78", // shown next to the call button
-  displayWhatsApp: "06 01 77 98 51", // shown next to the WhatsApp icon
+  displayWhatsApp: "06 49 32 09 42", // shown next to the WhatsApp icon
 };
 
 const translations = {
@@ -32,6 +32,7 @@ const translations = {
     "nav.contact": "Contact",
     "nav.menuOpen": "Ouvrir le menu",
     "nav.menuClose": "Fermer le menu",
+    "whatsapp.floatLabel": "Discuter avec Rim Pressing sur WhatsApp",
     "lang.label": "Choisir la langue",
     "header.cta": "Réserver une collecte",
 
@@ -195,6 +196,7 @@ const translations = {
     "nav.contact": "Contact",
     "nav.menuOpen": "Open menu",
     "nav.menuClose": "Close menu",
+    "whatsapp.floatLabel": "Chat with Rim Pressing on WhatsApp",
     "lang.label": "Choose language",
     "header.cta": "Book pickup",
 
