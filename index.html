@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rim Pressing à Casablanca : lavage, repassage et nettoyage à sec avec collecte et livraison gratuites. Réservez votre collecte sur WhatsApp.">
+  <meta name="theme-color" content="#0b5cff">
+  <meta property="og:title" content="Rim Pressing — Pressing &amp; nettoyage à Casablanca">
+  <meta property="og:description" content="Un pressing soigné à Casablanca, avec collecte et livraison gratuites. Votre linge revient frais, plié et prêt à porter.">
+  <meta property="og:type" content="website">
+  <title>Rim Pressing — Pressing &amp; nettoyage à Casablanca</title>
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%230b5cff'/%3E%3Cpath d='M14 26 32 16l18 10-18 10L14 26Z' fill='white'/%3E%3Cpath d='m14 34 18 10 18-10M14 42l18 10 18-10' fill='none' stroke='white' stroke-width='4' stroke-linecap='round' stroke-linejoin='round' opacity='.6'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&amp;family=Manrope:wght@600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Aller au contenu</a>
+
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Rim Pressing — accueil" data-i18n-aria-label="brand.home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" fill="none">
+            <path d="M5 11.2 16 5.5l11 5.7-11 5.6L5 11.2Z" fill="currentColor"/>
+            <path d="M5 16.1 16 21.8l11-5.7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity=".7"/>
+            <path d="M5 21 16 26.7 27 21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity=".42"/>
+          </svg>
+        </span>
+        <span class="brand-name">Rim <span>Pressing</span></span>
+      </a>
+
+      <nav class="site-nav" id="site-nav" aria-label="Navigation principale" data-i18n-aria-label="nav.primary">
+        <a href="#services" data-i18n="nav.services">Services</a>
+        <a href="#how-it-works" data-i18n="nav.how">Comment ça marche</a>
+        <a href="#prices" data-i18n="nav.prices">Tarifs</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-switch" role="group" aria-label="Choisir la langue" data-i18n-aria-label="lang.label">
+          <button class="lang-switch__button is-active" type="button" data-set-lang="fr" aria-pressed="true" aria-label="Français" lang="fr">FR</button>
+          <button class="lang-switch__button" type="button" data-set-lang="en" aria-pressed="false" aria-label="English" lang="en">EN</button>
+        </div>
+        <a class="button button--primary button--small header-cta" href="#contact" data-whatsapp>
+          <span data-i18n="header.cta">Réserver une collecte</span>
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M5 12h14m-5-5 5 5-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Ouvrir le menu" data-nav-toggle>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="eyebrow-dot" aria-hidden="true"></span>
+            <span data-i18n="hero.eyebrow">Pressing &amp; nettoyage à Casablanca</span>
+          </p>
+          <h1 class="hero-title" data-i18n-html="hero.title">Du linge frais.<br><span>Zéro tracas.</span></h1>
+          <p class="hero-lede" data-i18n="hero.lede">Un pressing de confiance à Casablanca, avec collecte et livraison gratuites — votre linge revient net, repassé et prêt à porter.</p>
+
+          <div class="hero-actions">
+            <a class="button button--primary button--large" href="#contact" data-whatsapp>
+              <span data-i18n="hero.cta">Réserver une collecte</span>
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M5 12h14m-5-5 5 5-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <a class="button button--secondary button--large" href="#services" data-i18n="hero.secondary">Découvrir les services</a>
+          </div>
+
+          <ul class="hero-points" aria-label="Nos avantages" data-i18n-aria-label="hero.benefitsLabel">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="m5.5 12.5 4 4L18.5 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span data-i18n="hero.point1">Collecte &amp; livraison gratuites</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.8"/>
+                <path d="M12 7.5V12l3 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span data-i18n="hero.point2">Prêt sous 24 à 48 h</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 21c4-4.4 7-7.6 7-11a7 7 0 1 0-14 0c0 3.4 3 6.6 7 11Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                <circle cx="12" cy="10" r="2.3" stroke="currentColor" stroke-width="1.8"/>
+              </svg>
+              <span data-i18n="hero.point3">Un soin pour chaque tissu</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-art">
+            <span class="art-orbit art-orbit--one"></span>
+            <span class="art-orbit art-orbit--two"></span>
+            <span class="art-bubble art-bubble--one"></span>
+            <span class="art-bubble art-bubble--two"></span>
+            <span class="art-bubble art-bubble--three"></span>
+
+            <svg class="hero-shirt" viewBox="0 0 460 540" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="shirt-gradient" x1="110" y1="120" x2="350" y2="480" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#ffffff"/>
+                  <stop offset=".6" stop-color="#f8fbff"/>
+                  <stop offset="1" stop-color="#dfecff"/>
+                </linearGradient>
+                <filter id="shirt-shadow" x="8" y="66" width="444" height="456" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#03267c" flood-opacity=".4"/>
+                </filter>
+              </defs>
+
+              <circle cx="230" cy="270" r="190" stroke="rgba(255,255,255,.14)" stroke-width="1.2"/>
+              <circle cx="230" cy="270" r="237" stroke="rgba(255,255,255,.11)" stroke-width="1.2" stroke-dasharray="3 12"/>
+
+              <path d="M230 130V104c0-13.3 10.7-24 24-24s24 10.7 24 24c0 11.4-8 20.7-18.7 23" stroke="#c8ddff" stroke-width="7" stroke-linecap="round"/>
+
+              <ellipse cx="230" cy="481" rx="91" ry="13" fill="#042b87" opacity=".28"/>
+
+              <g filter="url(#shirt-shadow)">
+                <path d="M230 136c-23 0-44 7-61 21L86 204c-18 10-22 32-10 47l42 50c10 12 28 14 40 4l10-9v165c0 16 13 29 29 29h66c16 0 29-13 29-29V296l10 9c12 10 30 8 40-4l42-50c12-15 8-37-10-47l-83-47c-17-14-38-21-61-21Z" fill="url(#shirt-gradient)"/>
+              </g>
+
+              <path d="M194 153c8 26 20 40 36 40s28-14 36-40c-11-10-23-15-36-15s-25 5-36 15Z" fill="#d8e7ff"/>
+              <path d="M201 157c7 21 17 32 29 32s22-11 29-32" stroke="#b5cff3" stroke-width="2" stroke-linecap="round"/>
+              <path d="M168 297c12 2 20-1 25-9M292 297c-12 2-20-1-25-9" stroke="#d1e0f5" stroke-width="2" stroke-linecap="round"/>
+              <path d="M211 338c5 12 5 24 0 36M251 382c-4 10-4 20 0 30M228 425c4 8 4 17 0 25" stroke="#d2e1f6" stroke-width="2" stroke-linecap="round"/>
+              <path d="M254 250h34v40c0 7-6 12-13 12h-8c-7 0-13-5-13-12v-40Z" stroke="#cfdff5" stroke-width="2"/>
+              <path d="M353 111l4 11 11 4-11 4-4 11-4-11-11-4 11-4 4-11Z" fill="#fff" opacity=".9"/>
+              <path d="M108 326l2.5 7 7 2.5-7 2.5-2.5 7-2.5-7-7-2.5 7-2.5 2.5-7Z" fill="#fff" opacity=".6"/>
+              <circle cx="383" cy="86" r="6" fill="#fff" opacity=".28"/>
+              <circle cx="403" cy="136" r="12" fill="#fff" opacity=".13"/>
+              <circle cx="82" cy="112" r="10" fill="#fff" opacity=".22"/>
+              <circle cx="61" cy="146" r="5" fill="#fff" opacity=".2"/>
+              <circle cx="369" cy="391" r="8" fill="#fff" opacity=".16"/>
+              <circle cx="100" cy="383" r="6" fill="#fff" opacity=".18"/>
+            </svg>
+
+            <div class="float-card float-card--pickup">
+              <span class="float-icon">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <rect x="4" y="5.5" width="16" height="14" rx="3" stroke="currentColor" stroke-width="1.8"/>
+                  <path d="M8 3.5v4M16 3.5v4M4 10h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                  <path d="m9.5 14 1.8 1.8 3.5-3.6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <span class="float-copy">
+                <span data-i18n="hero.pickupLabel">Collecte prévue</span>
+                <strong data-i18n="hero.pickupTime">Aujourd’hui · 18 h</strong>
+              </span>
+            </div>
+
+            <div class="float-card float-card--ready">
+              <span class="float-icon float-icon--success">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="m6 12.5 4 4L18 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <span class="float-copy">
+                <span data-i18n="hero.readyLabel">Frais &amp; pliés</span>
+                <strong data-i18n="hero.readyValue">Prêts à livrer</strong>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="specialties">
+        <div class="container specialties-inner">
+          <p class="specialties-label" data-i18n="specialties.label">Soin attentif pour</p>
+          <ul>
+            <li data-i18n="specialties.daily">Linge du quotidien</li>
+            <li data-i18n="specialties.workwear">Chemises &amp; tenues de travail</li>
+            <li data-i18n="specialties.delicate">Tissus délicats</li>
+            <li data-i18n="specialties.home">Linge de maison</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow" data-i18n="services.eyebrow">Nos services</p>
+            <h2 class="section-title" id="services-title" data-i18n-html="services.title">Tout ce dont<br>votre linge a besoin.</h2>
+          </div>
+          <p class="section-copy" data-i18n="services.copy">Chaque article est facturé à la pièce — jamais au kilo. Collecte et livraison gratuites.</p>
+        </div>
+
+        <div class="service-bento">
+          <article class="service-feature">
+            <div class="service-feature-copy">
+              <div class="service-feature-top">
+                <span class="service-badge" data-i18n="services.popular">Le plus demandé</span>
+                <p class="service-feature-price">
+                  <span data-i18n="common.from">Dès</span>
+                  <strong>20 DH</strong>
+                  <small data-i18n="common.perItem">/ pièce</small>
+                </p>
+              </div>
+              <h3 data-i18n="services.wash.title">Nettoyage à sec &amp; lavage</h3>
+              <p data-i18n="services.wash.desc">À l’eau ou à sec, selon la matière de chaque vêtement.</p>
+              <ul class="service-chips">
+                <li data-i18n="services.tags.shirts">Chemises</li>
+                <li data-i18n="services.tags.suits">Costumes</li>
+                <li data-i18n="services.tags.dresses">Robes</li>
+                <li data-i18n="services.tags.coats">Manteaux</li>
+                <li data-i18n="services.tags.djellabas">Djellabas</li>
+              </ul>
+              <a class="service-feature-link" href="#prices">
+                <span data-i18n="services.viewPrices">Voir les tarifs</span>
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M5 12h14m-5-5 5 5-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+            </div>
+
+            <div class="service-feature-art" aria-hidden="true">
+              <svg viewBox="0 0 620 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <g id="rack-hanger" stroke="#c8ddff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".75">
+                    <path d="M0 62V45c0-9 7-16 16-16s16 7 16 16c0 7-4 13-10 15"/>
+                    <path d="M0 62l-22 14h44"/>
+                  </g>
+                </defs>
+
+                <path d="M26 27h568" stroke="#a8c8f3" stroke-opacity=".55" stroke-width="3" stroke-linecap="round"/>
+                <circle cx="26" cy="27" r="4" fill="#c8ddff" opacity=".6"/>
+                <circle cx="594" cy="27" r="4" fill="#c8ddff" opacity=".6"/>
+
+                <use href="#rack-hanger" transform="translate(76 0)"/>
+                <path d="M76 82c-8 0-16 3-22 8l-20 14c-4 3-3 9 2 11l12 8 8-9v107c0 4 3 7 7 7h26c4 0 7-3 7-7V114l8 9 12-8c5-2 6-8 2-11l-20-14c-6-5-14-8-22-8Z" fill="#e8d7b5"/>
+                <path d="M64 82h24l-12 26-12-26Z" fill="#f7ecda"/>
+                <path d="M76 108v127M66 139h20M66 151h20" stroke="#cbb38a" stroke-width="2" stroke-linecap="round"/>
+                <path d="M54 111l-9 18M98 111l9 18" stroke="#d9c49f" stroke-width="2" stroke-linecap="round"/>
+                <rect x="36" y="91" width="14" height="19" rx="2" fill="#fff" transform="rotate(-6 43 100)"/>
+                <path d="M39 96h8" stroke="#e7b954" stroke-width="3" stroke-linecap="round"/>
+
+                <use href="#rack-hanger" transform="translate(167 0)"/>
+                <path d="M167 82c5 8 11 12 19 12s14-4 19-12l21 12-11 21-9-5v108h-40V110l-9 5-11-21 21-12Z" fill="#f8fbff"/>
+                <path d="M156 83l11 20 11-20M167 110v111" stroke="#c6d9f0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="167" cy="134" r="1.9" fill="#a9c7eb"/>
+                <circle cx="167" cy="153" r="1.9" fill="#a9c7eb"/>
+                <rect x="125" y="91" width="13" height="18" rx="2" fill="#fff" transform="rotate(-7 131 100)"/>
+                <path d="M128 95h7" stroke="#7fb3ff" stroke-width="2.5" stroke-linecap="round"/>
+
+                <use href="#rack-hanger" transform="translate(258 0)"/>
+                <path d="M258 82c-8 0-15 3-21 8l-18 13c-4 3-3 9 2 11l12 8 8-8v106c0 4 3 7 7 7h20c4 0 7-3 7-7V114l8 8 12-8c5-2 6-8 2-11l-18-13c-6-5-13-8-21-8Z" fill="#224578"/>
+                <path d="M245 83h26l-13 28-13-28Z" fill="#365f93"/>
+                <path d="M258 111v115M248 140h20" stroke="#173861" stroke-width="2" stroke-linecap="round"/>
+                <path d="M234 114l-10 18M282 114l10 18" stroke="#1a3b67" stroke-width="2" stroke-linecap="round"/>
+
+                <use href="#rack-hanger" transform="translate(349 0)"/>
+                <path d="M349 82c-7 0-14 3-19 8l-14 11c-4 3-3 9 2 11l10 6 6-5-7 113c0 4 3 7 7 7h30c4 0 7-3 7-7l-7-113 6 5 10-6c5-2 6-8 2-11l-14-11c-5-5-12-8-19-8Z" fill="#709fe1"/>
+                <path d="M338 83h22l-11 24-11-24Z" fill="#93b9ed"/>
+                <path d="M327 189h44" stroke="#e8c66d" stroke-width="5"/>
+                <path d="M349 107v66" stroke="#8bb3ea" stroke-width="2"/>
+                <circle cx="349" cy="128" r="2" fill="#f7db91"/>
+                <circle cx="349" cy="145" r="2" fill="#f7db91"/>
+
+                <use href="#rack-hanger" transform="translate(440 0)"/>
+                <path d="M440 82c4 7 10 11 17 11s13-4 17-11l18 11-10 18-8-5v109h-34V106l-8 5-10-18 18-11Z" fill="#cfe3ff"/>
+                <path d="M430 83l10 17 10-17M440 106v109" stroke="#aecdef" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="440" cy="130" r="1.7" fill="#9cbfe9"/>
+                <circle cx="440" cy="149" r="1.7" fill="#9cbfe9"/>
+                <rect x="475" y="91" width="13" height="18" rx="2" fill="#fff" transform="rotate(6 481 100)"/>
+                <path d="M478 96h7" stroke="#e7b954" stroke-width="2.5" stroke-linecap="round"/>
+
+                <use href="#rack-hanger" transform="translate(531 0)"/>
+                <path d="M531 82c-8 0-15 3-21 8l-19 13c-4 3-3 9 2 11l12 8 8-8v107c0 4 3 7 7 7h24c4 0 7-3 7-7V114l8 8 12-8c5-2 6-8 2-11l-19-13c-6-5-13-8-21-8Z" fill="#e7c36b"/>
+                <path d="M519 83h24l-12 26-12-26Z" fill="#f3d98c"/>
+                <path d="M531 109v126M521 140h20M521 152h20" stroke="#bd9844" stroke-width="2" stroke-linecap="round"/>
+                <rect x="490" y="91" width="14" height="19" rx="2" fill="#fff" transform="rotate(-6 497 100)"/>
+                <path d="M493 96h8" stroke="#7fb3ff" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+          </article>
+
+          <article class="service-tile service-tile--iron">
+            <h3 data-i18n="services.iron.title">Repassage</h3>
+            <p data-i18n="services.iron.desc">Des finitions nettes et impeccables pour chemises, pantalons et robes.</p>
+            <div class="service-tile-foot">
+              <p class="tile-price">
+                <span data-i18n="common.from">Dès</span>
+                <strong>5 DH</strong>
+                <small data-i18n="common.perItem">/ pièce</small>
+              </p>
+              <span class="service-tile-art" aria-hidden="true">
+                <svg viewBox="0 0 120 86" fill="none">
+                  <path d="M32 15c-4-4-4-9-1-13M45 12c-3-4-3-8 0-11" stroke="#8fb9ff" stroke-width="2.5" stroke-linecap="round"/>
+                  <path d="M42 36V28c0-4 3-7 7-7h12c4 0 7 3 7 7v8" stroke="#0b5cff" stroke-width="5" stroke-linecap="round"/>
+                  <path d="M25 54c0-14 12-25 27-25h24c11 0 19 7 19 16 0 6-5 11-11 11H25Z" fill="#0b5cff"/>
+                  <path d="M21 54h86c2 0 3 1 3 3v3c0 6-5 11-11 11H32c-6 0-11-5-11-11v-6Z" fill="#bcd7ff"/>
+                  <path d="M32 61h66" stroke="#eef6ff" stroke-width="3" stroke-linecap="round"/>
+                  <circle cx="89" cy="42" r="4" fill="#ffd45e"/>
+                </svg>
+              </span>
+            </div>
+          </article>
+
+          <article class="service-tile service-tile--home">
+            <h3 data-i18n="services.home.title">Linge de maison</h3>
+            <p data-i18n="services.home.desc">Draps, serviettes, nappes et rideaux, lavés et soigneusement repassés.</p>
+            <div class="service-tile-foot">
+              <p class="tile-price">
+                <span data-i18n="common.from">Dès</span>
+                <strong>5 DH</strong>
+                <small data-i18n="common.perItem">/ pièce</small>
+              </p>
+              <span class="service-tile-art" aria-hidden="true">
+                <svg viewBox="0 0 120 80" fill="none">
+                  <rect x="26" y="47" width="68" height="18" rx="9" fill="#aecdf5"/>
+                  <rect x="32" y="30" width="62" height="18" rx="9" fill="#ffffff" stroke="#d6e5f8"/>
+                  <rect x="21" y="13" width="76" height="18" rx="9" fill="#dbeaff"/>
+                  <path d="M34 22h50M38 39h50M33 56h54" stroke="#9ec2ef" stroke-width="2" stroke-linecap="round"/>
+                  <rect x="50" y="13" width="18" height="5" rx="2.5" fill="#ffd45e"/>
+                </svg>
+              </span>
+            </div>
+          </article>
+
+          <article class="service-tile service-tile--bedding">
+            <h3 data-i18n="services.bedding.title">Couvertures &amp; couettes</h3>
+            <p data-i18n="services.bedding.desc">Couvertures, couvre-lits et oreillers nettoyés en profondeur.</p>
+            <div class="service-tile-foot">
+              <p class="tile-price">
+                <span data-i18n="common.from">Dès</span>
+                <strong>20 DH</strong>
+                <small data-i18n="common.perItem">/ pièce</small>
+              </p>
+              <span class="service-tile-art" aria-hidden="true">
+                <svg viewBox="0 0 120 80" fill="none">
+                  <path d="M18 47c0-11 9-20 20-20h44c11 0 20 9 20 20v18H18V47Z" fill="#bcd7ff"/>
+                  <path d="M27 47c0-8 6-14 14-14h38c8 0 14 6 14 14v4H27v-4Z" fill="#e8f2ff"/>
+                  <rect x="18" y="64" width="84" height="9" rx="4.5" fill="#dbeaff"/>
+                  <rect x="34" y="29" width="52" height="15" rx="7.5" fill="#f7fbff" stroke="#d3e4f7"/>
+                  <path d="M43 36h34" stroke="#b9d3ef" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </span>
+            </div>
+          </article>
+
+          <article class="service-tile service-tile--special">
+            <span class="service-special-sparkle" aria-hidden="true">
+              <svg viewBox="0 0 80 80" fill="none">
+                <path d="m54 9 3.2 9.7 9.8 3.3-9.8 3.3L54 35l-3.2-9.7L41 22l9.8-3.3L54 9Z" fill="#fff" opacity=".22"/>
+                <path d="m23 25 2.3 7 7 2.3-7 2.3-2.3 7-2.3-7-7-2.3 7-2.3 2.3-7Z" fill="#fff" opacity=".12"/>
+              </svg>
+            </span>
+            <h3 data-i18n="services.special.title">Un article particulier ?</h3>
+            <p data-i18n="services.special.desc">Caftan, robe de soirée, pièce délicate… Écrivez-nous, on vous conseille.</p>
+            <a class="service-special-link" href="#contact" data-whatsapp>
+              <svg class="service-special-wa" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M20.5 11.6a8.4 8.4 0 0 1-12.4 7.4L3.5 20.5l1.5-4.5a8.4 8.4 0 1 1 15.5-4.4Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                <path d="M8.8 7.9c.3-.1.7 0 .9.3l.9 1.5c.1.3.1.6-.1.8l-.7.7c.5 1 1.3 1.9 2.3 2.4l.7-.7c.2-.2.5-.3.8-.1l1.6.9c.3.2.4.5.3.9l-.3 1c-.1.4-.5.7-.9.7-3.7.3-7.9-3.8-7.7-7.5 0-.4.3-.8.7-.9l.5-.1Z" fill="currentColor"/>
+              </svg>
+              <span data-i18n="services.special.cta">Écrivez-nous</span>
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M5 12h14m-5-5 5 5-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </article>
+        </div>
+
+        <p class="pricing-note">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.8"/>
+            <path d="M12 11v5M12 8h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <span data-i18n="services.note">Tous nos prix sont à la pièce. Le tarif final dépend du tissu et de la finition.</span>
+        </p>
+      </div>
+    </section>
+
+    <section class="section how-it-works" id="how-it-works" aria-labelledby="how-title">
+      <div class="container">
+        <div class="how-heading">
+          <p class="eyebrow" data-i18n="how.eyebrow">Comment ça marche</p>
+          <h2 class="section-title" id="how-title" data-i18n-html="how.title">Votre linge propre,<br>en trois étapes.</h2>
+          <p class="section-copy" data-i18n="how.copy">Nous récupérons, nettoyons et livrons votre linge — pendant que vous vaquez à vos occupations.</p>
+        </div>
+
+        <div class="steps">
+          <article class="step">
+            <div class="step-top">
+              <span class="step-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <rect x="4" y="5.5" width="16" height="14" rx="3" stroke="currentColor" stroke-width="1.7"/>
+                  <path d="M8 3.5v4M16 3.5v4M4 10h16" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+                  <path d="M8 14h3M8 17h6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+                </svg>
+              </span>
+              <span class="step-number" data-i18n="how.step1.label">Étape 01</span>
+            </div>
+            <h3 data-i18n="how.step1.title">Choisissez un créneau</h3>
+            <p data-i18n="how.step1.desc">Écrivez-nous sur WhatsApp avec votre besoin. Nous confirmons un créneau de collecte qui vous convient.</p>
+          </article>
+
+          <article class="step">
+            <div class="step-top">
+              <span class="step-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="m12 3 1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+                  <path d="m18.5 15 .8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8.8-2.2Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <span class="step-number" data-i18n="how.step2.label">Étape 02</span>
+            </div>
+            <h3 data-i18n="how.step2.title">Nous prenons soin de tout</h3>
+            <p data-i18n="how.step2.desc">Chaque article est vérifié et nettoyé avec le traitement adapté à son tissu, sa couleur et sa finition.</p>
+          </article>
+
+          <article class="step">
+            <div class="step-top">
+              <span class="step-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M3 7h11v10H3V7ZM14 10h4l3 3v4h-7v-7Z" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+                  <circle cx="7" cy="17.5" r="1.8" stroke="currentColor" stroke-width="1.7"/>
+                  <circle cx="17.5" cy="17.5" r="1.8" stroke="currentColor" stroke-width="1.7"/>
+                </svg>
+              </span>
+              <span class="step-number" data-i18n="how.step3.label">Étape 03</span>
+            </div>
+            <h3 data-i18n="how.step3.title">Votre linge est livré</h3>
+            <p data-i18n="how.step3.desc">Sous 24 à 48 h, votre linge revient plié, repassé et prêt à porter.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section pricing" id="prices" aria-labelledby="pricing-title">
+      <div class="container">
+        <div class="section-heading pricing-heading">
+          <div>
+            <p class="eyebrow" data-i18n="pricing.eyebrow">Nos tarifs</p>
+            <h2 class="section-title" id="pricing-title" data-i18n="pricing.title">Tarifs lavage</h2>
+          </div>
+          <p class="section-copy" data-i18n="pricing.copy">Une sélection de 15 articles parmi les plus demandés. Prix en dirhams, par article.</p>
+        </div>
+
+        <div class="price-table-wrap">
+          <table class="price-table">
+            <caption class="visually-hidden" data-i18n="pricing.caption">Tarifs lavage par article</caption>
+            <thead>
+              <tr>
+                <th scope="col" data-i18n="pricing.article">Article</th>
+                <th scope="col" data-i18n="pricing.column">Lavage</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row" data-i18n="items.shirt">Chemise</th><td><strong>20</strong> DH</td></tr>
+              <tr><th scope="row" data-i18n="items.tshirt">T-shirt</th><td><strong>20</strong> DH</td></tr>
+              <tr><th scope="row" data-i18n="items.sweater">Pull</th><td><strong>20</strong> DH</td></tr>
+              <tr><th scope="row" data-i18n="items.trousers">Pantalon</th><td><strong>25</strong> DH</td></tr>
+              <tr><th scope="row" data-i18n="items.skirt">Jupe</th><td><strong>30</strong> DH</td></tr>
+              <tr><th scope="row" data-i18n="items.dress">Robe</th><td><strong>40</strong> DH</td></tr>
+              <tr><th scope="row" data-i18n="items.jacket">Veste</th><td><strong>35</strong> DH</td></tr>
+              <tr><th scope="row" data-i18n="items.coat">Manteau</th><td><strong>50</strong> DH</td></tr>
+              <tr><th scope="row" data-i18n="items.suit">Costume</th><td><strong>70</strong> DH</td></tr>
+              <tr><th scope="row" data-i18n="items.set">Ensemble</th><td><strong>60</strong> DH</td></tr>
+              <tr><th scope="row" data-i18n="items.djellaba">Djellaba</th><td><strong>35</strong> DH</td></tr>
+              <tr><th scope="row" data-i18n="items.caftan">Caftan</th><td><strong>40</strong> DH</td></tr>
+              <tr><th scope="row" data-i18n="items.sheet">Drap</th><td><strong>40</strong> DH</td></tr>
+              <tr><th scope="row" data-i18n="items.blanket">Couverture</th><td><strong>70</strong> DH</td></tr>
+              <tr><th scope="row" data-i18n="items.tablecloth">Nappe</th><td><strong>40</strong> DH</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="pricing-footer">
+          <p class="price-note">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.8"/>
+              <path d="M12 11v5M12 8h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            <span data-i18n="pricing.note">Prix indicatifs, selon l’article et son état. Devis précis en boutique. Un autre article ? Demandez-nous son prix sur WhatsApp.</span>
+          </p>
+          <a class="button button--primary" href="#contact" data-whatsapp data-service-key="quote">
+            <span data-i18n="pricing.cta">Demander un devis</span>
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M5 12h14m-5-5 5 5-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section service-area" id="service-area" aria-labelledby="service-area-title">
+      <div class="container">
+        <div class="service-area-card">
+          <p class="eyebrow" data-i18n="area.eyebrow">Zone de collecte</p>
+          <h2 class="section-title" id="service-area-title" data-i18n-html="area.title">Autour de Maarif,<br>à 0–3 km.</h2>
+          <p class="service-area-copy" data-i18n="area.copy">Nous collectons vos articles dans un rayon d’environ 0 à 3 km autour de Maarif.</p>
+
+          <div class="service-area-icons" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M4.5 10.5h15l-1.5 8.5h-12l-1.5-8.5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+              <path d="m8 10.5 2-5M16 10.5l-2-5M8.5 13.5v3M12 13.5v3M15.5 13.5v3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+            </svg>
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M9 4.5c.5 1.2 1.6 2 3 2s2.5-.8 3-2l3.8 2v3.8L16 11v8H8v-8l-2.8.3V6.5L9 4.5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+            </svg>
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M12 3.5a2 2 0 1 1 1.2 1.8v1.4l8 4.8c.8.5.5 1.8-.5 1.8H3.3c-1 0-1.3-1.3-.5-1.8l8-4.8V5.3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <svg viewBox="0 0 24 24" fill="none">
+              <rect x="4" y="3.5" width="16" height="17" rx="3" stroke="currentColor" stroke-width="1.6"/>
+              <circle cx="12" cy="13" r="4" stroke="currentColor" stroke-width="1.6"/>
+              <path d="M8 7h.01M16 7h.01" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+            </svg>
+          </div>
+
+          <div class="service-area-rule" aria-hidden="true"></div>
+
+          <p class="service-area-label" data-i18n="area.label">Secteurs desservis</p>
+          <ul class="area-list">
+            <li>Maarif</li>
+            <li>Gauthier</li>
+            <li>Racine</li>
+            <li>Bourgogne</li>
+            <li>CIL</li>
+            <li>Oasis</li>
+            <li>Anfa</li>
+          </ul>
+
+          <div class="service-area-footer">
+            <p class="service-area-note" data-i18n="area.note">Votre quartier n’apparaît pas dans la liste ? Écrivez-nous pour vérifier s’il fait partie de notre zone.</p>
+            <a class="button button--primary" href="#contact" data-whatsapp>
+              <span data-i18n="area.cta">Réserver une collecte</span>
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M5 12h14m-5-5 5 5-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact-card">
+          <div class="contact-copy">
+            <p class="eyebrow eyebrow--light">
+              <span class="eyebrow-dot" aria-hidden="true"></span>
+              <span data-i18n="contact.eyebrow">Quand vous voulez</span>
+            </p>
+            <h2 class="section-title" id="contact-title" data-i18n-html="contact.title">Votre linge,<br>on s’en occupe.</h2>
+            <p data-i18n="contact.copy">Écrivez-nous sur WhatsApp et nous organiserons votre première collecte. Sans formulaire, sans stress — juste du linge frais.</p>
+            <a class="button button--whatsapp button--large button--whatsapp-number" href="#contact" data-whatsapp>
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M20.5 11.6a8.4 8.4 0 0 1-12.4 7.4L3.5 20.5l1.5-4.5a8.4 8.4 0 1 1 15.5-4.4Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                <path d="M8.8 7.9c.3-.1.7 0 .9.3l.9 1.5c.1.3.1.6-.1.8l-.7.7c.5 1 1.3 1.9 2.3 2.4l.7-.7c.2-.2.5-.3.8-.1l1.6.9c.3.2.4.5.3.9l-.3 1c-.1.4-.5.7-.9.7-3.7.3-7.9-3.8-7.7-7.5 0-.4.3-.8.7-.9l.5-.1Z" fill="currentColor"/>
+              </svg>
+              <span class="whatsapp-cta-copy">
+                <span data-i18n="contact.cta">Discuter sur WhatsApp</span>
+                <small data-whatsapp-number>06 01 77 98 51</small>
+              </span>
+            </a>
+            <p class="contact-note" data-i18n="contact.note">Nous répondons dès que possible pendant les horaires d’ouverture.</p>
+          </div>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <span class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M6.5 3.5h2.2l1.4 3.4-1.6 1.3a13.2 13.2 0 0 0 5.3 5.3l1.3-1.6 3.4 1.4v2.2a2.5 2.5 0 0 1-2.7 2.5c-6.5-.7-12.2-6.4-12.8-12.9A2.5 2.5 0 0 1 5.5 3.5h1Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <span class="contact-item-copy">
+                <span class="contact-label" data-i18n="contact.call">Appelez-nous</span>
+                <a href="tel:+212522983778" data-phone>05&nbsp;22&nbsp;98&nbsp;37&nbsp;78</a>
+              </span>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <rect x="3.5" y="5.5" width="17" height="13" rx="2.5" stroke="currentColor" stroke-width="1.7"/>
+                  <path d="m5 7.5 7 5 7-5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <span class="contact-item-copy">
+                <span class="contact-label" data-i18n="contact.emailLabel">E-mail</span>
+                <a href="mailto:contact@rimpressing.ma">contact@rimpressing.ma</a>
+              </span>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.8"/>
+                  <path d="M12 7.5V12l3 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <span class="contact-item-copy">
+                <span class="contact-label" data-i18n="contact.hoursLabel">Horaires d’ouverture</span>
+                <strong data-i18n="contact.hours">Lun–Sam, 8h–20h</strong>
+              </span>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M3 7h11v10H3V7ZM14 10h4l3 3v4h-7v-7Z" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+                  <circle cx="7" cy="17.5" r="1.8" stroke="currentColor" stroke-width="1.7"/>
+                  <circle cx="17.5" cy="17.5" r="1.8" stroke="currentColor" stroke-width="1.7"/>
+                </svg>
+              </span>
+              <span class="contact-item-copy">
+                <span class="contact-label" data-i18n="contact.deliveryLabel">Collecte &amp; livraison</span>
+                <strong data-i18n="contact.delivery">Gratuites, directement chez vous</strong>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="location-card">
+          <div class="location-copy">
+            <p class="eyebrow" data-i18n="location.eyebrow">Nous trouver</p>
+            <h3 data-i18n="location.title">Passez au pressing.</h3>
+            <address class="location-address">
+              Résid. Siham<br>
+              103 Rue Ibn<br>
+              Casablanca 20180
+            </address>
+            <div class="location-actions">
+              <a class="button button--secondary" href="https://www.google.com/maps/search/?api=1&amp;query=33.57582234273774%2C-7.648009525136012" target="_blank" rel="noopener noreferrer">
+                <span data-i18n="location.directions">Voir l’itinéraire</span>
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M7 17 17 7M8 7h9v9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+              <a class="location-phone" href="tel:+212522983778" data-phone>05&nbsp;22&nbsp;98&nbsp;37&nbsp;78</a>
+            </div>
+          </div>
+          <div class="map-frame">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2817.724513939052!2d-7.648009525136012!3d33.57582234273774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d3d6673e8ec3%3A0x85a1012083bccf8!2sRim%20pressing!5e1!3m2!1sen!2sma!4v1793619776894!5m2!1sen!2sma"
+              title="Carte de Rim Pressing — Résid. Siham, 103 Rue Ibn, Casablanca"
+              data-i18n-title="location.mapTitle"
+              width="600"
+              height="450"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand brand--footer" href="#top" aria-label="Rim Pressing — accueil" data-i18n-aria-label="brand.home">
+            <span class="brand-mark" aria-hidden="true">
+              <svg viewBox="0 0 32 32" fill="none">
+                <path d="M5 11.2 16 5.5l11 5.7-11 5.6L5 11.2Z" fill="currentColor"/>
+                <path d="M5 16.1 16 21.8l11-5.7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity=".7"/>
+                <path d="M5 21 16 26.7 27 21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity=".42"/>
+              </svg>
+            </span>
+            <span class="brand-name">Rim <span>Pressing</span></span>
+          </a>
+          <p class="footer-about" data-i18n="footer.about">Pressing et nettoyage à Casablanca, avec collecte et livraison gratuites. Du linge frais, des journées plus légères.</p>
+          <a class="footer-chat" href="#contact" data-whatsapp>
+            <span data-i18n="footer.chat">Écrivez-nous sur WhatsApp</span>
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M5 12h14m-5-5 5 5-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+
+        <div class="footer-col">
+          <h3 data-i18n="footer.servicesHeading">Services</h3>
+          <a href="#services" data-i18n="services.wash.title">Nettoyage à sec &amp; lavage</a>
+          <a href="#services" data-i18n="services.iron.title">Repassage</a>
+          <a href="#services" data-i18n="services.home.title">Linge de maison</a>
+          <a href="#services" data-i18n="services.bedding.title">Couvertures &amp; couettes</a>
+        </div>
+
+        <div class="footer-col">
+          <h3 data-i18n="footer.exploreHeading">Découvrir</h3>
+          <a href="#how-it-works" data-i18n="nav.how">Comment ça marche</a>
+          <a href="#prices" data-i18n="nav.prices">Tarifs</a>
+          <a href="#service-area" data-i18n="area.eyebrow">Zone de collecte</a>
+          <a href="#contact" data-i18n="nav.contact">Contact</a>
+        </div>
+
+        <div class="footer-col footer-visit">
+          <h3 data-i18n="footer.visitHeading">Nous trouver</h3>
+          <address class="footer-address">
+            Résid. Siham<br>
+            103 Rue Ibn<br>
+            Casablanca 20180
+          </address>
+          <a class="footer-phone" href="tel:+212522983778" data-phone>05&nbsp;22&nbsp;98&nbsp;37&nbsp;78</a>
+          <a class="footer-whatsapp" href="#contact" data-whatsapp>
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M20.5 11.6a8.4 8.4 0 0 1-12.4 7.4L3.5 20.5l1.5-4.5a8.4 8.4 0 1 1 15.5-4.4Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+              <path d="M8.8 7.9c.3-.1.7 0 .9.3l.9 1.5c.1.3.1.6-.1.8l-.7.7c.5 1 1.3 1.9 2.3 2.4l.7-.7c.2-.2.5-.3.8-.1l1.6.9c.3.2.4.5.3.9l-.3 1c-.1.4-.5.7-.9.7-3.7.3-7.9-3.8-7.7-7.5 0-.4.3-.8.7-.9l.5-.1Z" fill="currentColor"/>
+            </svg>
+            <span class="visually-hidden">WhatsApp&nbsp;</span>
+            <span data-whatsapp-number>06 01 77 98 51</span>
+          </a>
+          <a class="footer-email" href="mailto:contact@rimpressing.ma">contact@rimpressing.ma</a>
+          <p data-i18n-html="footer.hours">Lun–Sam, 8h–20h<br>Dimanche fermé</p>
+        </div>
+      </div>
+
+      <div class="footer-social">
+        <p class="footer-social-label" data-i18n="footer.socialLabel">Retrouvez-nous en ligne</p>
+        <div class="footer-social-links">
+          <a class="footer-social-link" href="https://www.telecontact.ma/annonceur/rim-pressing/3061323/casablanca.php" target="_blank" rel="noopener noreferrer" aria-label="Voir Rim Pressing sur Télécontact (pages jaunes)" data-i18n-aria-label="footer.telecontactAria">
+            <span class="footer-social-icon footer-social-icon--telecontact" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M6 3.5h11.5A1.5 1.5 0 0 1 19 5v14a1.5 1.5 0 0 1-1.5 1.5H6A2.5 2.5 0 0 1 3.5 18V6A2.5 2.5 0 0 1 6 3.5Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+                <path d="M7.5 7.5h8M7.5 10.5h8M7.5 13.5h5M6 20.5v-17" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <span>Télécontact</span>
+          </a>
+          <a class="footer-social-link" href="https://www.google.com/search?q=Rim+Pressing+Casablanca" target="_blank" rel="noopener noreferrer" aria-label="Rechercher Rim Pressing sur Google" data-i18n-aria-label="footer.googleAria">
+            <span class="footer-social-icon footer-social-icon--google" aria-hidden="true">
+              <svg viewBox="0 0 48 48">
+                <path fill="#FFC107" d="M43.6 20.1H42V20H24v8h11.3A12 12 0 0 1 12.7 28l-6.5 5A20 20 0 1 0 44 24c0-1.3-.1-2.6-.4-3.9Z"/>
+                <path fill="#FF3D00" d="m6.3 14.7 6.6 4.8A12 12 0 0 1 24 12c3.1 0 5.8 1.2 8 3l5.7-5.7A20 20 0 0 0 6.3 14.7Z"/>
+                <path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2A12 12 0 0 1 12.7 28l-6.4 5A20 20 0 0 0 24 44Z"/>
+                <path fill="#1976D2" d="M43.6 20.1H42V20H24v8h11.3a12 12 0 0 1-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.6-.4-3.9Z"/>
+              </svg>
+            </span>
+            <span>Google</span>
+          </a>
+          <!-- Add Facebook, Instagram and TikTok links here. -->
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span data-year>2026</span> Rim Pressing. <span data-i18n="footer.rights">Tous droits réservés.</span></p>
+        <p data-i18n="footer.tagline">Du linge frais. Des journées plus légères.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
