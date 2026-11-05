@@ -15,8 +15,8 @@
   --white: #ffffff;
   --success: #1aa45a;
 
-  --font-display: "Manrope", "Avenir Next", "Segoe UI", sans-serif;
-  --font-body: "DM Sans", "Avenir Next", "Segoe UI", sans-serif;
+  --font-display: "Readex Pro", "Avenir Next", "Segoe UI", sans-serif;
+  --font-body: "Readex Pro", "Avenir Next", "Segoe UI", sans-serif;
 
   --shadow-sm: 0 10px 28px rgba(8, 42, 94, 0.07);
   --shadow-md: 0 22px 50px rgba(8, 42, 94, 0.12);
@@ -388,7 +388,7 @@ section[id] {
   display: flex;
   align-items: center;
   gap: clamp(1.25rem, 2.5vw, 2.25rem);
-  margin-left: auto;
+  margin-inline-start: auto;
 }
 
 .site-nav a {
@@ -439,6 +439,11 @@ section[id] {
   border: 1px solid var(--line);
   border-radius: 999px;
   background: #f3f7fd;
+  direction: ltr;
+}
+
+.site-nav-lang {
+  display: none;
 }
 
 .lang-switch__button {
@@ -1252,7 +1257,7 @@ section[id] {
 
 .tile-price span {
   width: 100%;
-  color: #5f748f;
+  color: #465b75;
   font-family: var(--font-display);
   font-size: 0.59rem;
   font-weight: 700;
@@ -1269,7 +1274,7 @@ section[id] {
 }
 
 .tile-price small {
-  color: #5f748f;
+  color: #465b75;
   font-size: 0.7rem;
 }
 
@@ -1476,7 +1481,7 @@ section[id] {
 .price-table td {
   padding: 0.9rem clamp(1.1rem, 3vw, 2rem);
   border-bottom: 1px solid #edf3fb;
-  text-align: left;
+  text-align: start;
 }
 
 .price-table thead th {
@@ -1493,7 +1498,7 @@ section[id] {
 
 .price-table thead th:last-child,
 .price-table tbody td:last-child {
-  text-align: right;
+  text-align: end;
 }
 
 .price-table tbody th {
@@ -1666,7 +1671,7 @@ section[id] {
   margin-top: 1.75rem;
   padding-top: 1.75rem;
   border-top: 1px dashed #c9dcf3;
-  text-align: left;
+  text-align: start;
 }
 
 .service-area-note {
@@ -2301,7 +2306,7 @@ section[id] {
   }
 
   .header-actions {
-    margin-left: auto;
+    margin-inline-start: auto;
   }
 
   .site-nav {
@@ -2313,7 +2318,7 @@ section[id] {
     flex-direction: column;
     align-items: stretch;
     gap: 0.15rem;
-    margin-left: 0;
+    margin-inline-start: 0;
     padding: 0.5rem;
     border: 1px solid var(--line);
     border-radius: 1.25rem;
@@ -2836,6 +2841,105 @@ section[id] {
     width: 2.25rem;
     height: 2.25rem;
   }
+}
+
+@media (max-width: 640px) {
+  .header-cta {
+    display: none;
+  }
+}
+
+@media (max-width: 380px) {
+  .header-actions > .lang-switch {
+    display: none;
+  }
+
+  .site-nav-lang {
+    display: inline-flex;
+    align-self: flex-start;
+    margin: 0.4rem 1rem 0.2rem;
+  }
+}
+
+/* ---------- Arabic / RTL ---------- */
+
+html[lang="ar"] body {
+  line-height: 1.8;
+}
+
+html[lang="ar"] body * {
+  letter-spacing: normal !important;
+}
+
+html[lang="ar"] h1,
+html[lang="ar"] h2,
+html[lang="ar"] h3 {
+  line-height: 1.3;
+}
+
+html[lang="ar"] .hero-title {
+  line-height: 1.2;
+}
+
+html[lang="ar"] .button {
+  line-height: 1.3;
+}
+
+[dir="rtl"] .skip-link {
+  right: 0.75rem;
+  left: auto;
+}
+
+[dir="rtl"] .brand {
+  direction: ltr;
+}
+
+[dir="rtl"] .specialties li {
+  padding-right: 1.15rem;
+  padding-left: 0;
+}
+
+[dir="rtl"] .specialties li::before {
+  right: 0;
+  left: auto;
+}
+
+[dir="rtl"] .site-nav a::after {
+  transform-origin: right;
+}
+
+[dir="rtl"] a[href^="tel:"],
+[dir="rtl"] a[href^="mailto:"],
+[dir="rtl"] [data-whatsapp-number] {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+[dir="rtl"] .whatsapp-float {
+  right: auto;
+  left: max(1rem, env(safe-area-inset-left));
+}
+
+[dir="rtl"] .service-special-sparkle {
+  right: auto;
+  left: 0.8rem;
+}
+
+[dir="rtl"] .header-cta > svg,
+[dir="rtl"] .hero-actions .button--primary > svg,
+[dir="rtl"] .pricing-footer .button > svg,
+[dir="rtl"] .service-area-footer .button > svg,
+[dir="rtl"] .location-actions .button > svg,
+[dir="rtl"] .footer-chat > svg,
+[dir="rtl"] .service-feature-link > svg,
+[dir="rtl"] .service-special-link > svg:last-child {
+  transform: scaleX(-1);
+}
+
+[dir="rtl"] .button--primary:hover > svg,
+[dir="rtl"] .service-feature-link:hover > svg,
+[dir="rtl"] .footer-chat:hover > svg {
+  transform: translateX(-3px) scaleX(-1);
 }
 
 @media (prefers-reduced-motion: reduce) {

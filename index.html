@@ -20,7 +20,7 @@
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%230b5cff'/%3E%3Cpath d='M14 26 32 16l18 10-18 10L14 26Z' fill='white'/%3E%3Cpath d='m14 34 18 10 18-10M14 42l18 10 18-10' fill='none' stroke='white' stroke-width='4' stroke-linecap='round' stroke-linejoin='round' opacity='.6'/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&amp;family=Manrope:wght@600;700;800&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 <script type="application/ld+json">
@@ -72,12 +72,18 @@
         <a href="#how-it-works" data-i18n="nav.how">Comment ça marche</a>
         <a href="#prices" data-i18n="nav.prices">Tarifs</a>
         <a href="#contact" data-i18n="nav.contact">Contact</a>
+        <div class="lang-switch site-nav-lang" role="group" aria-label="Choisir la langue" data-i18n-aria-label="lang.label">
+          <button class="lang-switch__button is-active" type="button" data-set-lang="fr" aria-pressed="true" aria-label="Français" lang="fr">FR</button>
+          <button class="lang-switch__button" type="button" data-set-lang="en" aria-pressed="false" aria-label="English" lang="en">EN</button>
+          <button class="lang-switch__button" type="button" data-set-lang="ar" aria-pressed="false" aria-label="العربية" lang="ar">AR</button>
+        </div>
       </nav>
 
       <div class="header-actions">
         <div class="lang-switch" role="group" aria-label="Choisir la langue" data-i18n-aria-label="lang.label">
           <button class="lang-switch__button is-active" type="button" data-set-lang="fr" aria-pressed="true" aria-label="Français" lang="fr">FR</button>
           <button class="lang-switch__button" type="button" data-set-lang="en" aria-pressed="false" aria-label="English" lang="en">EN</button>
+          <button class="lang-switch__button" type="button" data-set-lang="ar" aria-pressed="false" aria-label="العربية" lang="ar">AR</button>
         </div>
         <a class="button button--primary button--small header-cta" href="#contact" data-whatsapp>
           <span data-i18n="header.cta">Réserver une collecte</span>
@@ -563,13 +569,13 @@
 
           <p class="service-area-label" data-i18n="area.label">Secteurs desservis</p>
           <ul class="area-list">
-            <li>Maarif</li>
-            <li>Gauthier</li>
-            <li>Racine</li>
-            <li>Bourgogne</li>
-            <li>CIL</li>
-            <li>Oasis</li>
-            <li>Anfa</li>
+            <li data-i18n="area.maarif">Maarif</li>
+            <li data-i18n="area.gauthier">Gauthier</li>
+            <li data-i18n="area.racine">Racine</li>
+            <li data-i18n="area.bourgogne">Bourgogne</li>
+            <li data-i18n="area.cil">CIL</li>
+            <li data-i18n="area.oasis">Oasis</li>
+            <li data-i18n="area.anfa">Anfa</li>
           </ul>
 
           <div class="service-area-footer">
@@ -667,7 +673,7 @@
           <div class="location-copy">
             <p class="eyebrow" data-i18n="location.eyebrow">Nous trouver</p>
             <h3 data-i18n="location.title">Passez au pressing.</h3>
-            <address class="location-address">
+            <address class="location-address" data-i18n-html="contact.address">
               Résid. Siham<br>
               103 Rue Ibn<br>
               Casablanca 20180
@@ -740,7 +746,7 @@
 
         <div class="footer-col footer-visit">
           <h3 data-i18n="footer.visitHeading">Nous trouver</h3>
-          <address class="footer-address">
+          <address class="footer-address" data-i18n-html="contact.address">
             Résid. Siham<br>
             103 Rue Ibn<br>
             Casablanca 20180

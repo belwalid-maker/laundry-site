@@ -3,8 +3,8 @@
 /* =========================================================
    Rim Pressing — site interactions & translations
 
-   Default language: French. The English version is available
-   from the FR / EN switch in the header.
+   Default language: French. English and Arabic versions are
+   available from the language switch in the header.
    ========================================================= */
 
 const siteConfig = {
@@ -144,7 +144,16 @@ const translations = {
     "area.note":
       "Votre quartier n’apparaît pas dans la liste ? Écrivez-nous pour vérifier s’il fait partie de notre zone.",
     "area.cta": "Réserver une collecte",
+    "area.maarif": "Maarif",
+    "area.gauthier": "Gauthier",
+    "area.racine": "Racine",
+    "area.bourgogne": "Bourgogne",
+    "area.cil": "CIL",
+    "area.oasis": "Oasis",
+    "area.anfa": "Anfa",
 
+    "contact.address":
+      "Résid. Siham<br>103 Rue Ibn<br>Casablanca 20180",
     "contact.eyebrow": "Quand vous voulez",
     "contact.title": "Votre linge,<br>on s’en occupe.",
     "contact.copy":
@@ -308,7 +317,16 @@ const translations = {
     "area.note":
       "Don’t see your neighbourhood? Message us to check if it’s within our area.",
     "area.cta": "Book a pickup",
+    "area.maarif": "Maarif",
+    "area.gauthier": "Gauthier",
+    "area.racine": "Racine",
+    "area.bourgogne": "Bourgogne",
+    "area.cil": "CIL",
+    "area.oasis": "Oasis",
+    "area.anfa": "Anfa",
 
+    "contact.address":
+      "Résid. Siham<br>103 Rue Ibn<br>Casablanca 20180",
     "contact.eyebrow": "Ready when you are",
     "contact.title": "Let’s cross laundry<br>off your list.",
     "contact.copy":
@@ -342,6 +360,179 @@ const translations = {
     "footer.rights": "All rights reserved.",
     "footer.tagline": "Fresh clothes. Lighter days.",
   },
+
+  ar: {
+    "meta.title": "ريم بريسينغ — غسيل وتنظيف جاف في الدار البيضاء",
+    "meta.description":
+      "تقدم ريم بريسينغ في الدار البيضاء خدمات الغسيل والكي والتنظيف الجاف مع استلام وتوصيل مجانيين. احجز استلامك عبر واتساب خلال دقيقة.",
+    "meta.ogTitle": "ريم بريسينغ — غسيل وتنظيف جاف في الدار البيضاء",
+    "meta.ogDescription":
+      "عناية احترافية بملابسك في الدار البيضاء مع استلام وتوصيل مجانيين. تعود ملابسك نظيفة ومنعشة وجاهزة للارتداء.",
+
+    "brand.home": "ريم بريسينغ — الرئيسية",
+    "skip": "انتقل إلى المحتوى",
+    "nav.primary": "التنقل الرئيسي",
+    "nav.services": "الخدمات",
+    "nav.how": "كيف نعمل",
+    "nav.prices": "الأسعار",
+    "nav.contact": "اتصل بنا",
+    "nav.menuOpen": "فتح القائمة",
+    "nav.menuClose": "إغلاق القائمة",
+    "whatsapp.floatLabel": "تحدث مع ريم بريسينغ على واتساب",
+    "lang.label": "اختر اللغة",
+    "header.cta": "احجز استلامًا",
+
+    "hero.eyebrow": "غسيل وتنظيف جاف في الدار البيضاء",
+    "hero.title": "ملابس منعشة.<br><span>بلا عناء.</span>",
+    "hero.lede":
+      "خدمة غسيل موثوقة في الدار البيضاء، مع استلام وتوصيل مجانيين — تعود ملابسك نظيفة ومكوية وجاهزة لارتدائها.",
+    "hero.cta": "احجز استلامًا",
+    "hero.secondary": "اكتشف الخدمات",
+    "hero.benefitsLabel": "مزايا الخدمة",
+    "hero.point1": "استلام وتوصيل مجانيان",
+    "hero.point2": "جاهز خلال 24–48 ساعة",
+    "hero.point3": "عناية بكل نوع قماش",
+    "hero.pickupLabel": "تم جدولة الاستلام",
+    "hero.pickupTime": "اليوم · 6 مساءً",
+    "hero.readyLabel": "منعشة ومطوية",
+    "hero.readyValue": "جاهز للتوصيل",
+
+    "specialties.label": "نعتني بـ",
+    "specialties.daily": "الغسيل اليومي",
+    "specialties.workwear": "القمصان وملابس العمل",
+    "specialties.delicate": "الأقمشة الحساسة",
+    "specialties.home": "مفارش المنزل",
+
+    "services.eyebrow": "خدماتنا",
+    "services.title": "كل ما يحتاجه<br>غسيلك.",
+    "services.copy":
+      "كل قطعة تُحسب على حدة — أبدًا بالوزن. الاستلام والتوصيل مجانيان.",
+    "services.wash.title": "تنظيف جاف وغسيل",
+    "services.wash.desc":
+      "غسيل بالماء أو تنظيف جاف، حسب نوع قماش كل قطعة.",
+    "services.iron.title": "كي الملابس",
+    "services.iron.desc":
+      "لمسات نهائية أنيقة ومتقنة للقمصان والسراويل والفساتين.",
+    "services.dry.title": "التنظيف الجاف",
+    "services.dry.desc":
+      "عناية مهنية ولطيفة بالبدلات والمعاطف وملابس السهرة والأقمشة الحساسة.",
+    "services.home.title": "مفارش المنزل",
+    "services.home.desc":
+      "شراشف ومناشف ومفارش طاولات وستائر، تُغسل وتُكوى بعناية.",
+    "services.bedding.title": "اللحف والأغطية",
+    "services.bedding.desc":
+      "لحف وأغطية أسرّة ووسائد تُنظّف بعمق.",
+    "services.tags.shirts": "القمصان",
+    "services.tags.suits": "البدلات",
+    "services.tags.dresses": "الفساتين",
+    "services.tags.coats": "المعاطف",
+    "services.tags.djellabas": "الجلابيب",
+    "services.viewPrices": "عرض الأسعار",
+    "services.special.title": "قطعة مميزة؟",
+    "services.special.desc":
+      "قفطان أو فستان سهرة أو قطعة حساسة؟ راسلنا وسنقدم لك النصيحة.",
+    "services.special.cta": "راسلنا",
+    "services.popular": "الأكثر طلبًا",
+    "services.askWhatsapp": "اطلب عرض سعر عبر واتساب",
+    "services.note":
+      "جميع أسعارنا لكل قطعة. السعر النهائي يعتمد على القماش والتشطيب.",
+    "common.from": "من",
+    "common.perItem": "/ قطعة",
+
+    "how.eyebrow": "كيف نعمل",
+    "how.title": "ملابسك النظيفة،<br>في ثلاث خطوات.",
+    "how.copy":
+      "نستلم وننظف ونوصل — بينما تتفرغ أنت ليومك.",
+    "how.step1.label": "الخطوة 01",
+    "how.step1.title": "اختر الموعد",
+    "how.step1.desc":
+      "راسلنا على واتساب بما تحتاجه. سنؤكد موعد الاستلام الذي يناسبك.",
+    "how.step2.label": "الخطوة 02",
+    "how.step2.title": "نعتني بكل قطعة",
+    "how.step2.desc":
+      "نفحص كل قطعة وننظفها بالطريقة المناسبة لقماشها ولونها وتشطيبها.",
+    "how.step3.label": "الخطوة 03",
+    "how.step3.title": "نوصلها منعشة",
+    "how.step3.desc":
+      "خلال 24 إلى 48 ساعة، تعود ملابسك مطوية ومكوية وجاهزة للارتداء.",
+
+    "pricing.eyebrow": "أسعارنا",
+    "pricing.title": "أسعار الغسيل",
+    "pricing.copy":
+      "مجموعة من 15 قطعة من أكثر القطع طلبًا. الأسعار بالدرهم لكل قطعة.",
+    "pricing.caption": "أسعار الغسيل لكل قطعة",
+    "pricing.article": "القطعة",
+    "pricing.column": "الغسيل",
+    "pricing.note":
+      "الأسعار تقريبية وتختلف حسب القطعة وحالتها. السعر الدقيق في المحل. قطعة أخرى؟ اطلب سعرها عبر واتساب.",
+    "pricing.cta": "اطلب عرض سعر",
+    "items.shirt": "قميص",
+    "items.tshirt": "تي شيرت",
+    "items.sweater": "سترة صوفية",
+    "items.trousers": "بنطال",
+    "items.skirt": "تنورة",
+    "items.dress": "فستان",
+    "items.jacket": "جاكيت",
+    "items.coat": "معطف",
+    "items.suit": "بدلة",
+    "items.set": "طقم",
+    "items.djellaba": "جلابة",
+    "items.caftan": "قفطان",
+    "items.sheet": "شرشف",
+    "items.blanket": "بطانية",
+    "items.tablecloth": "مفرش طاولة",
+
+    "area.eyebrow": "منطقة الاستلام",
+    "area.title": "حول المعاريف،<br>ضمن 0–3 كم.",
+    "area.copy":
+      "نستلم من المنازل على مسافة تقارب 0 إلى 3 كم حول المعاريف.",
+    "area.label": "الأحياء التي نخدمها",
+    "area.note":
+      "لا ترى حيّك في القائمة؟ راسلنا للتحقق مما إذا كان داخل نطاق خدمتنا.",
+    "area.cta": "احجز استلامًا",
+    "area.maarif": "المعاريف",
+    "area.gauthier": "غوتييه",
+    "area.racine": "راسين",
+    "area.bourgogne": "بورغون",
+    "area.cil": "سيل",
+    "area.oasis": "الوازيس",
+    "area.anfa": "أنفا",
+
+    "contact.address":
+      "إقامة سهام<br>103 شارع ابن<br>الدار البيضاء 20180",
+    "contact.eyebrow": "متى ما أردت",
+    "contact.title": "ملابسك،<br>ونحن نتولى الباقي.",
+    "contact.copy":
+      "راسلنا على واتساب وسنرتّب أول عملية استلام لك. بلا استمارات ولا تعقيد — فقط ملابس نظيفة.",
+    "contact.cta": "تحدث معنا على واتساب",
+    "contact.note":
+      "نرد في أقرب وقت ممكن خلال ساعات العمل.",
+    "contact.call": "اتصل بنا",
+    "contact.emailLabel": "البريد الإلكتروني",
+    "contact.hoursLabel": "ساعات العمل",
+    "contact.hours": "الاثنين–السبت، 8:00–20:00",
+    "contact.deliveryLabel": "الاستلام والتوصيل",
+    "contact.delivery": "مجانيان، حتى باب منزلك",
+
+    "location.eyebrow": "أين تجدنا",
+    "location.title": "تفضل بزيارة المحل.",
+    "location.directions": "الاتجاهات",
+    "location.mapTitle":
+      "خريطة موقع ريم بريسينغ — إقامة سهام، 103 شارع ابن، الدار البيضاء",
+
+    "footer.about":
+      "غسيل وتنظيف جاف في الدار البيضاء، مع استلام وتوصيل مجانيين. ملابس منعشة وأيام أخف.",
+    "footer.chat": "راسلنا على واتساب",
+    "footer.socialLabel": "تجدنا أيضًا على",
+    "footer.telecontactAria": "شاهد ريم بريسينغ على Télécontact (الصفحات الصفراء)",
+    "footer.googleAria": "ابحث عن ريم بريسينغ على Google",
+    "footer.servicesHeading": "الخدمات",
+    "footer.exploreHeading": "استكشف",
+    "footer.visitHeading": "زورونا",
+    "footer.hours": "الاثنين–السبت، 8:00–20:00<br>الأحد مغلق",
+    "footer.rights": "جميع الحقوق محفوظة.",
+    "footer.tagline": "ملابس منعشة. أيام أخف.",
+  },
 };
 
 const whatsappMessages = {
@@ -361,6 +552,14 @@ const whatsappMessages = {
     quote:
       "Hello Rim Pressing! I'd like a quote for my laundry. Could you share your prices?",
   },
+  ar: {
+    default:
+      "مرحبًا ريم بريسينغ! أرغب في حجز استلام للغسيل. ما الأوقات المتاحة؟",
+    service: (serviceName) =>
+      `مرحبًا ريم بريسينغ! أرغب في معرفة المزيد عن خدمة «${serviceName}». ما مواعيد الاستلام المتاحة؟`,
+    quote:
+      "مرحبًا ريم بريسينغ! أرغب في الحصول على عرض سعر لغسيل ملابسي. هل يمكنكم إرسال الأسعار؟",
+  },
 };
 
 const phoneDigits = siteConfig.phoneNumber.replace(/\D/g, "");
@@ -372,7 +571,9 @@ let currentLanguage = getStoredLanguage();
 function getStoredLanguage() {
   try {
     const storedLanguage = window.localStorage.getItem(languageStorageKey);
-    return storedLanguage === "en" || storedLanguage === "fr"
+    return storedLanguage === "en" ||
+      storedLanguage === "fr" ||
+      storedLanguage === "ar"
       ? storedLanguage
       : "fr";
   } catch (error) {
@@ -436,6 +637,7 @@ function syncMenuLabel() {
 function applyLanguage(language, { persist = true } = {}) {
   currentLanguage = translations[language] ? language : "fr";
   document.documentElement.lang = currentLanguage;
+  document.documentElement.dir = currentLanguage === "ar" ? "rtl" : "ltr";
   document.documentElement.dataset.lang = currentLanguage;
 
   document.title = translate("meta.title");
