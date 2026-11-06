@@ -161,7 +161,7 @@ const translations = {
     "area.anfa": "Anfa",
 
     "contact.address":
-      "Résid. Siham<br>103 Rue Ibn<br>Casablanca 20180",
+      "103 rue Ibn Habous<br>Résid. Siham<br>Maarif, Casablanca - Maroc",
     "contact.eyebrow": "Quand vous voulez",
     "contact.title": "Votre linge,<br>on s’en occupe.",
     "contact.copy":
@@ -180,7 +180,7 @@ const translations = {
     "location.title": "Passez au pressing.",
     "location.directions": "Voir l’itinéraire",
     "location.mapTitle":
-      "Carte de Rim Pressing — Résid. Siham, 103 Rue Ibn, Casablanca",
+      "Carte de Rim Pressing — 103 rue Ibn Habous, Résid. Siham, Maarif, Casablanca",
 
     "footer.about":
       "Pressing et nettoyage à Casablanca, avec collecte et livraison gratuites. Du linge frais, des journées plus légères.",
@@ -343,7 +343,7 @@ const translations = {
     "area.anfa": "Anfa",
 
     "contact.address":
-      "Résid. Siham<br>103 Rue Ibn<br>Casablanca 20180",
+      "103 rue Ibn Habous<br>Résid. Siham<br>Maarif, Casablanca - Maroc",
     "contact.eyebrow": "Ready when you are",
     "contact.title": "Let’s cross laundry<br>off your list.",
     "contact.copy":
@@ -362,7 +362,7 @@ const translations = {
     "location.title": "Drop by the pressing.",
     "location.directions": "Get directions",
     "location.mapTitle":
-      "Map showing Rim Pressing at Résid. Siham, 103 Rue Ibn, Casablanca",
+      "Map showing Rim Pressing at 103 rue Ibn Habous, Résid. Siham, Maarif, Casablanca",
 
     "footer.about":
       "Laundry & dry cleaning in Casablanca with free pickup and delivery. Fresh clothes, lighter days.",
@@ -525,7 +525,7 @@ const translations = {
     "area.anfa": "أنفا",
 
     "contact.address":
-      "إقامة سهام<br>103 شارع ابن<br>الدار البيضاء 20180",
+      "103 شارع ابن حبوس<br>إقامة سهام<br>المعاريف، الدار البيضاء - المغرب",
     "contact.eyebrow": "متى ما أردت",
     "contact.title": "ملابسك،<br>ونحن نتولى الباقي.",
     "contact.copy":
@@ -544,7 +544,7 @@ const translations = {
     "location.title": "تفضل بزيارة المحل.",
     "location.directions": "الاتجاهات",
     "location.mapTitle":
-      "خريطة موقع ريم بريسينغ — إقامة سهام، 103 شارع ابن، الدار البيضاء",
+      "خريطة موقع ريم بريسينغ — 103 شارع ابن حبوس، إقامة سهام، المعاريف، الدار البيضاء",
 
     "footer.about":
       "غسيل وتنظيف جاف في الدار البيضاء، مع استلام وتوصيل مجانيين. ملابس منعشة وأيام أخف.",
