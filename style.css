@@ -2520,6 +2520,11 @@ section[id] {
   color: #4b3a00;
 }
 
+.footer-social-icon--annuaire {
+  background: #e8f0ff;
+  color: var(--blue-dark);
+}
+
 .footer-social-icon--google {
   background: var(--white);
   color: #4285f4;
